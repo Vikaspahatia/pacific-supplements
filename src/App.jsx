@@ -3,12 +3,13 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-d
 
 import HomePage from "./pages/HomePage";
 import Products from "./components/Products";
+import Header from "./components/Header";
 
 function App() {
   return (
     <Router>
       <div>
-        {/* <HeaderComponent /> */}
+        <Header />
         <Routes>
           <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<HomePage />}></Route>
