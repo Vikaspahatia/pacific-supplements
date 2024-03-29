@@ -1,13 +1,15 @@
 /* Header.css */
 
 .header {
-  background-color: #feed46;
+  /* background-color: #feed46; */
   color: #fff;
   padding: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  /* background: linear-gradient(to right, red, #ffec45); */
+  background: linear-gradient(to left, #f5cf25, #f5cf25, #f5cf25);
 }
 
 .logoContainer {
